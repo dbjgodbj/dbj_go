@@ -14,7 +14,7 @@
   </a>
   {{- with .Params.tags }}
   <div class="home-grid-tags">
-    {{- range . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+    {{- range . }}{{- $tagPage := $.Site.GetPage (printf "/tags/%s" (. | urlize)) }}<a href="{{ if $tagPage }}{{ $tagPage.RelPermalink }}{{ else }}{{ "/tags/" | relLangURL }}{{ . | urlize }}/{{ end }}">{{ . }}</a>{{ end }}
   </div>
   {{- end }}
 </div>
