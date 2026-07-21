@@ -1,0 +1,41 @@
+blockquote {
+    border-left: 4px solid var(--primary);
+    background: var(--code-bg);
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0 4px 4px 0;
+}
+
+blockquote p {
+    margin: 0;
+    font-style: normal;
+}
+
+/* Shortcode callouts */
+.callout {
+    border-left: 4px solid;
+    border-radius: 0 4px 4px 0;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+}
+
+.callout-label {
+    display: none;
+}
+
+.callout-body > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Light mode — darkest=important, lightest=note */
+.callout-important { border-color: #555; background: #ddd; }
+.callout-warning   { border-color: #777; background: #e8e8e8; }
+.callout-tip       { border-color: #999; background: #f0f0f0; }
+.callout-note      { border-color: #bbb; background: #f7f7f7; }
+
+/* Dark mode — same hierarchy, inverted */
+[data-theme="dark"] .callout { color: var(--primary); }
+[data-theme="dark"] .callout-important { border-color: #aaa; background: #3a3a3a; }
+[data-theme="dark"] .callout-warning   { border-color: #888; background: #2e2e2e; }
+[data-theme="dark"] .callout-tip       { border-color: #666; background: #262626; }
+[data-theme="dark"] .callout-note      { border-color: #444; background: #1e1e1e; }

@@ -1,0 +1,20 @@
+{{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+<div class="home-grid-cell">
+  <a class="home-grid-cell-link" href="{{ .Permalink }}">
+    <div class="home-grid-thumb">
+      {{- if $cover }}
+      <img loading="lazy" src="{{ $cover.Permalink }}" alt="{{ .Params.cover.alt | default .Title }}">
+      {{- else if .Params.cover.image }}
+      <img loading="lazy" src="{{ .Params.cover.image | absURL }}" alt="{{ .Params.cover.alt | default .Title }}">
+      {{- else }}
+      <img loading="lazy" src="{{ "iceberg-banner-1200x630.jpg" | absURL }}" alt="{{ .Title }}">
+      {{- end }}
+    </div>
+    <div class="home-grid-title">{{ .Title }}</div>
+  </a>
+  {{- with .Params.tags }}
+  <div class="home-grid-tags">
+    {{- range . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+  </div>
+  {{- end }}
+</div>

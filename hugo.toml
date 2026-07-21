@@ -1,0 +1,57 @@
+baseURL = 'https://dbjgodbj.github.io/dbj_go/'
+languageCode = 'en-us'
+title = 'DBJ GO'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  author = 'Dusan B. Jovanovic'
+  description = 'DBJ GO Efforts from 2019 to date'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  comments = true
+  TocOpen = false
+  defaultTheme = 'auto'
+  homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Enterprise Architecture advice for navigating the AI GO adoption. Free of hype.' }
+  homeGridStyle = true
+
+[params.profileMode]
+  enabled = false
+
+# [[params.socialIcons]]
+#  name = 'github'
+#  url = ''
+
+[params.giscus]
+  repo = "DBJGODBJ/dbj_go"
+  repoId = "R_kgDOSkKOjw"
+  category = "General"
+  categoryId = "DIC_kwDOSkKOj84C-ROl"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "preferred_color_scheme"
+  lang = "en"
+  loading = "lazy"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 1
+  [[menu.main]]
+    name = 'Search'
+    url = '/search/'
+    weight = 2

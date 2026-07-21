@@ -1,0 +1,32 @@
+<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/favicon/site.webmanifest" />
+{{- if not .Params.cover.image }}
+<meta property="og:image" content="{{ "dbj-org-logo.jpg" | absURL }}" />
+<meta property="twitter:image" content="{{ "dbj-org-logo.jpg" | absURL }}" />
+{{- end }}
+<style>
+  .entry-tags a {
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px 6px 4px 0;
+  }
+  .entry-tags a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+</style>
+{{- if .IsPage }}{{ $__ := .Content }}{{ end }}
+{{- if .Store.Get "hasMermaid" }}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "default",
+  });
+</script>
+{{- end }}
