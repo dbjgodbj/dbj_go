@@ -49,10 +49,12 @@ On the "Host": the **picobot** process, local filesystem, and optionally, if use
 
 ##  Runtime
 
-> [!Note] 
-> @BotFather is Telegram's official bot-creation tool: you message it, run /newbot, and it hands you an API token for a new bot (in this case, your picobot instance). It's how you provision a bot identity — it doesn't run your bot or relay its messages.
-> Telegram Bot API (the diagram node) is the ongoing message-relay service — the HTTPS endpoint your picobot gateway long-polls against to send/receive messages once the bot exists.
-> The flow is: talk to @BotFather once to get a token → configure picobot with that token → picobot then talks to the Telegram Bot API continuously for actual message traffic. @BotFather isn't in the  diagram because it's a one-time provisioning step, not a component in the running system.
+{{% callout type="important" %}}
+@BotFather is Telegram's official bot-creation tool: you message it, run /newbot, and it hands you an API token for a new bot (in this case, your picobot instance). It's how you provision a bot identity — it doesn't run your bot or relay its messages.
+Telegram Bot API (the diagram node) is the ongoing message-relay service — the HTTPS endpoint your picobot gateway long-polls against to send/receive messages once the bot exists.
+The flow is: talk to @BotFather once to get a token → configure picobot with that token → picobot then talks to the Telegram Bot API continuously for actual message traffic. @BotFather isn't in the  diagram because it's a one-time provisioning step, not a component in the running system.
+{{% /callout %}}
+
 
 **picobot** is the only piece to host — a single binary (or its Docker image) holding the gateway process, the agent loop, and local state under `~/.picobot`. It keeps a long-poll connection open to the Telegram Bot API, so no inbound port or public IP is needed on the hosting side. Every message that comes in gets turned into a request to OpenRouter's OpenAI-compatible endpoint, which routes it to whichever LLM is configured, and the reply flows back through the same path to Telegram.
 
