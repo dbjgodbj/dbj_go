@@ -2,7 +2,7 @@
 title: "Is this progress?"
 date: 2026-07-21
 description: "Example of a C++ ever-adding complexity"
-tags: ["basics"]
+tags: ["basics", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-05-15

@@ -2,7 +2,7 @@
 title: "PlantUML or Mermaid Diagrams"
 date: 2026-07-21
 description: "Diagraming comparison"
-tags: ["basics", "knowledge", "diagrams"]
+tags: ["basics", "knowledge", "diagrams", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-05-15

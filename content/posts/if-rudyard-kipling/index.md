@@ -2,7 +2,7 @@
 title: "'If'"
 date: 2026-07-21
 description: "An interesting poem by Rudyard Kipling"
-tags: ["x-files", "advice", "life"]
+tags: ["x-files", "advice", "life", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-01-12

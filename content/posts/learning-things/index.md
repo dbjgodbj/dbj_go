@@ -2,7 +2,7 @@
 title: "Learning Things"
 date: 2026-07-21
 description: "KB for learning the HUGO, LEARN Theme and all the rest"
-tags: ["basics"]
+tags: ["basics", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-05-15

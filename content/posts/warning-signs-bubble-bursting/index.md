@@ -2,7 +2,7 @@
 title: "Warning Signs That a Bubble Is About to Burst"
 date: 2026-07-21
 description: "Article on Medium 2019 MAY 23"
-tags: ["x-files", "advice", "life"]
+tags: ["x-files", "advice", "life", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-01-12

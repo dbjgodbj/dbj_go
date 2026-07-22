@@ -1,6 +1,12 @@
+# Hugo's generated site output — rebuilt from content/layouts on every build, never hand-edited
 public/
+# Hugo's resource cache (processed images, etc.) — regenerated automatically, machine-specific
 resources/
+# Hugo dev-server lock file — local/transient, recreated on each `hugo server` run
 .hugo_build.lock
+# Per-machine Claude Code permission allowlist — differs between Windows and Linux devs (see CLAUDE.md)
 .claude/settings.json
+# Per-machine Claude Code local overrides — same reason as settings.json above
 .claude/settings.local.json
+# Draft ToS pulled out of content/posts/ but kept locally for reference, not meant to ship
 deprecated-dbj-systems-service-agreement.md

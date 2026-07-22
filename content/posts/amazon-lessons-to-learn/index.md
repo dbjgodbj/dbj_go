@@ -2,7 +2,7 @@
 title: "Amazon Lessons to Learn"
 date: 2026-07-21
 description: "Amazon development concepts"
-tags: ["basics", "knowledge", "snippets", "Amazon"]
+tags: ["basics", "knowledge", "snippets", "Amazon", "2019"]
 author: "Dusan B. Jovanovic"
 ---
 ### Original date: 2019-05-15
