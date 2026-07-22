@@ -1,4 +1,6 @@
 
+# Hugo Shortcodes
+
 This is a Hugo shortcode (not the `> [!Note]` GitHub-style syntax. That's a different mechanism entirely, and PaperMod doesn't render it by default.
 
 ## The callout.html shortcode syntax is:
@@ -22,4 +24,5 @@ This is **not** safe to run in production.
 {{% /callout %}}
 ```
 
-
+> [!Warning] 
+> Works only on Hugo rendered pages, e.g.Posts
