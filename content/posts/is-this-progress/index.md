@@ -1,10 +1,11 @@
 ---
 title: "Is this progress?"
-date: 2019-05-15
+date: 2026-07-21
 description: "Example of a C++ ever-adding complexity"
 tags: ["basics"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
 
 - What are the qualities of the design bellow?
 - Can this be done simpler in C, wihtout losing the functionality?

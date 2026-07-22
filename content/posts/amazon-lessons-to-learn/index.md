@@ -1,10 +1,12 @@
 ---
 title: "Amazon Lessons to Learn"
-date: 2019-05-15
+date: 2026-07-21
 description: "Amazon development concepts"
 tags: ["basics", "knowledge", "snippets", "Amazon"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
+
 > DBJ Comment -- This describes managing the high pressure environment. On lower levels this probably works. But , there are serious issues with the wider picture of this. Primarily value of Architecture is neglected. Architects are called "Bar Raisers" etc. Mountain of Technical Debt is raising at Amazon. ROI and "Time to Market" are two key drivers at AMZN 2019. The likely outcome will be AMZN dropping into the hot mess of legacy systems and technical debt. Same as MSFT was in, starting with "Longhorn" disastrous attempt to combat the huge technical debt. It took MSFT 10+ years of the survival boot-camp to somehow overcome that potentialy fatal disaster.
 
 

@@ -1,10 +1,11 @@
 ---
 title: "PlantUML or Mermaid Diagrams"
-date: 2019-05-15
+date: 2026-07-21
 description: "Diagraming comparison"
 tags: ["basics", "knowledge", "diagrams"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
 
 Just finished two day evaluation of both. 
 

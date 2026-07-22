@@ -1,10 +1,11 @@
 ---
 title: "Diagrams"
-date: 2019-05-15
+date: 2026-07-21
 description: "Diagraming examples: PlantUML and Mermaid."
 tags: ["basics", "diagrams"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
 
 ## Plant UML
 

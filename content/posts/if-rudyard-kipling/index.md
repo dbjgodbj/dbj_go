@@ -1,10 +1,11 @@
 ---
 title: "'If'"
-date: 2019-01-12
+date: 2026-07-21
 description: "An interesting poem by Rudyard Kipling"
 tags: ["x-files", "advice", "life"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-01-12
 
 If you can keep your head when all about you  
 Are losing theirs and blaming it on you,  

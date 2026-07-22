@@ -1,10 +1,11 @@
 ---
 title: "Learning Things"
-date: 2019-05-15
+date: 2026-07-21
 description: "KB for learning the HUGO, LEARN Theme and all the rest"
 tags: ["basics"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
 
 - [Mermaid diagrams](https://mermaidjs.github.io) were created by [Knut Sveidqvist](https://github.com/knsv) for easier documentation.
 

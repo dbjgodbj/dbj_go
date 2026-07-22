@@ -1,10 +1,11 @@
 ---
 title: "Knowledge Snippets"
-date: 2019-05-15
+date: 2026-07-21
 description: "Knowledge + Snipets = Knopets"
 tags: ["basics", "knowledge", "snippets"]
 author: "Dusan B. Jovanovic"
 ---
+### Original date: 2019-05-15
 
 ## The Architecture Guidance
 

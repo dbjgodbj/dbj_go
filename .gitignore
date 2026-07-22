@@ -3,3 +3,4 @@ resources/
 .hugo_build.lock
 .claude/settings.json
 .claude/settings.local.json
+deprecated-dbj-systems-service-agreement.md
