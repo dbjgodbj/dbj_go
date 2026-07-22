@@ -1,5 +1,5 @@
 ---
-title: "Picobot for DBJ"
+title: "Picobot for DBJ4AI"
 date: 2026-07-22
 description: "Explaining the picobot, a single-binary Go agent, paired with OpenRouter's free tier, as a lean way to run an LLM-backed utility."
 tags: ["basics", "ai", "tooling"]
@@ -8,10 +8,6 @@ pinned: true
 cover:
   image: "dbj-pico-bot-g5.png"
 ---
-
-
-
-![picobot](dbj-pico-bot-g5.png)
 
 ## Why **picobot**
 
@@ -26,7 +22,7 @@ Three main components: **picobot**, OpenRouter and (initially) Telegram.
 ```mermaid
 flowchart
     U[Human, on Telegram] <-->|messages| T[Telegram Bot API]
-    T <-->|long-polling| P[picobot gateway]
+    T <-->|long-polling| P["<b>picobot</b> gateway"]
     P <-->|OpenAI-compatible API| O[OpenRouter]
     O -->|routes to| M["(Free-tier) Model"]
     P <-->|reads/writes| D[("~/.picobot\nmemory, skills, config")]
@@ -117,6 +113,6 @@ Discord and Slack integrations exist too, but both require registering an applic
 We use the [DBJ Taxonomy](https://method.dbj.org/taxonomy_core#canonical) as a common vocabulary. 
 
 
-#### Is GO good in the context of AI
+#### Is GO good in the context of AI?
 
 GO4AI https://packagemain.tech/p/my-thoughts-on-the-future-of-go-in-ai-era . Just one opinion, but sober and connected to reality.
